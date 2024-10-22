@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "SM_Commissioning",
+    "slug": "smcommissioning",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.francoisobeorg.smcommissioning"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.francoisobeorg.smcommissioning"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8f30eb07-cf47-4861-acae-1c2fa938b4d6"
+      }
+    },
+    "owner": "francois.obe-org",
+    "updates": {
+      "url": "https://u.expo.dev/8f30eb07-cf47-4861-acae-1c2fa938b4d6"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
